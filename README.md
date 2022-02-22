@@ -1,8 +1,8 @@
 # FastAPI / GraphQL Tutorial
 
-This is a completed version of [`testdriven.io`'s FastAPI+GraphQL blog tutorial](https://testdriven.io/blog/fastapi-graphql/), with the latest versions of dependencies (at time of publishing).
+This is a completed version of [`testdriven.io`'s FastAPI+GraphQL blog tutorial](https://testdriven.io/blog/fastapi-graphql/), with the latest versions of the relevant dependencies (at time of publishing).
 
-The original blog post was using GraphQL provided directly with Starlette (a FastAPI dependency), which [now requires a third-party library](https://www.starlette.io/graphql/). [`starlette-graphene3`](https://github.com/ciscorn/starlette-graphene3) was chosen as it requires the least modification to revise.
+The original blog post was using GraphQL provided directly with Starlette (a FastAPI dependency), which [now requires a third-party library](https://www.starlette.io/graphql/). [`starlette-graphene3`](https://github.com/ciscorn/starlette-graphene3) provides the mechanism for connecting `graphene` with `starlette` which was removed from `starlette` (`GraphQLApp`).
 
 ## Example GraphQL Queries
 
